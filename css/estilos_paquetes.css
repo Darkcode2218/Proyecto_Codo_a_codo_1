@@ -1,0 +1,692 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(78, 190, 255, 0.301) 0%, rgba(213, 238, 166, 0.4) 100%), url(/img/paquetes.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: linear-gradient(to top, #fdcbf18b 0%, #fdcbf18b 1%, #e6dee99e 100%);
+    padding: 10px 20px;
+}
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: #42297e;
+    margin: 3px 0;
+}
+
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #42297e;
+    font-size: 16px;
+}
+
+
+.menu-navegacion li{
+    display: inline-block;
+    
+    padding: 0 20px;
+
+}
+
+.menu-navegacion a:hover{
+    background-color: rgb(157, 80, 245);
+   
+
+} 
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fiestas-culturales {
+
+    margin: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.fiestas-culturales h2{
+    font-size: 1.5rem;
+    color: rgb(25, 125, 255);
+}
+
+.fiestas-cultares__parrafo--taman{
+    font-size: 1rem;
+}
+
+
+
+
+.imgDuraznos {
+margin: 1rem;
+padding: 1rem;
+width: 35rem;
+height: 28rem;
+float: center;
+}
+
+.texto-duraznos{
+
+    font-size: 1.5rem;
+    margin: 2rem;
+
+}
+
+
+
+
+
+.imgfortines{
+    margin:1rem;
+    padding: 1rem;
+    float: right;
+}
+
+.texto-fortines {
+
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+
+
+.imgEmpanadas {
+    margin: 1rem;
+    padding: 1rem;
+    float: left;
+    width: 38rem;
+    height: 27rem;
+}
+
+.texto-empanadas{
+           font-size: 1.5rem;
+           margin: 1rem;
+}
+
+
+
+.Paquetes {
+
+     margin: 1.5rem;
+     padding: 1.5rem;
+     font-size: 1.5rem;
+ }
+
+ .Paquetes p {
+     font-size: 1.4rem;
+
+ }
+
+ .Paquetes h2 {
+    color:  rgb(25, 125, 255);
+ }
+
+.paquete_basico{
+  color: white;
+  background: linear-gradient(rgb(23, 201, 255),rgba(0, 0, 0, 0.699));
+  padding: 2rem;
+  margin: 2rem;
+ font-size: 1.3rem;
+ height: 14rem;
+ width: 80rem;
+
+ border-radius:  5%;
+
+}
+
+
+.paquete_extra{
+    color: white;
+    background: linear-gradient(rgb(211, 115, 203), rgb(0, 0, 0));
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+    height: 14rem;
+    width: 80rem;
+    border-radius: 5%;
+}
+
+.paquete_premium {
+    color: white;
+    background: linear-gradient(rgb(193, 212, 16), rgb(0, 0, 0));
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+    height: 16rem;
+    width: 80rem;
+    border-radius: 5%;
+
+}
+
+
+
+.boton1 {
+    color: white;
+    background-color: rgb(3, 0, 184);
+    width: 5.5rem;
+    height: 2.5rem;
+    border: rgb(31, 183, 243) 3px solid;
+}
+
+.boton2 {
+    color: white;
+    background-color: rgb(143, 0, 187);
+    width: 5.5rem;
+    height: 2.5rem;
+    border: rgb(236, 70, 228) 3px solid;
+}
+
+.boton3 {
+       color: rgb(220, 245, 0);
+       background-color: rgb(0, 0, 0);
+       width: 5.5rem;
+       height: 2.5rem;
+       border: yellow 3px solid;
+}
+
+.formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    padding:20px;
+    gap: 10px;
+    width: 1000px;
+    background-image: linear-gradient(120deg, #c9c9c9dc 0%, #c7c9cbc7 100%);
+    align-items: center;
+    
+
+}
+
+.box-info {
+    color:#363535;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.box-info > h2 {
+    text-align: left;
+    letter-spacing: 5px;
+    color: #363535;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.data > p {
+    font-size: 1rem;
+}
+
+.data > p > i {
+    color:#9f8ad0;
+    margin-right: 10px;
+    font-size:25px;
+}
+
+
+
+.links {
+    display:flex;
+    gap:15px;
+}
+
+.links > a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: #9f8ad0;
+    text-align: center;
+    transition: .1s;
+}
+
+.links > a > i {
+    color:#fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.input-box {
+    position:relative;
+}
+
+.input-box > input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline:none;
+    background: rgba(253, 253, 253, 0.717);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    transition:.3s;
+    color:#9f8ad0;
+    
+}
+
+.input-box > input::placeholder,
+.input-box > textarea::placeholder {
+    color:#a3a3a3;
+    
+}
+
+.input-box > input:focus::placeholder,
+.input-box > textarea:focus::placeholder {
+    color:transparent;
+}
+
+.input-box > input:focus,
+.input-box > textarea:focus {
+    border-bottom:3px solid #9f8ad0;
+    animation: shake .2s;
+}
+
+.input-box > textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(253, 253, 253, 0.717);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    outline: none;
+    transition:.3s;
+    color:#9f8ad0;
+    letter-spacing: 1.5px;
+}
+
+
+.input-box > i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color:#9f8ad0;
+    transition: .3s;
+}
+
+.input-box > input:focus ~ i {
+    color:#9f8ad0;
+}
+
+form > button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #9f8ad0;
+    color:#fff;
+    border:none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form > button:hover,
+.links > a:hover {
+    background: #623fb4;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 5px;
+    right: 65px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+
+  .my-float {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/whatsappIcon_a.png);
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+}
+
+footer{
+    background: #6a62cf;
+    padding-bottom: 0.1px;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color: #764ba2;
+
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .fiestas-culturales h2{
+          color: black;
+          margin-bottom: 1rem;
+
+      }
+
+      .imgDuraznos {
+        margin: 1rem;
+        padding: 1rem;
+        width: 39rem;
+        height: 27rem;
+
+
+        }
+
+     .texto-duraznos{
+
+            font-size: 1.6rem;
+             }
+
+   .imgfortines{
+                margin: 1rem;
+                padding: 1rem;
+                height: 30rem;
+
+            }
+
+   .texto-fortines {
+
+                font-size: 1.6rem;
+
+            }
+
+ .imgEmpanadas {
+                margin: 1rem;
+                padding: 1rem;
+                 width: 39rem;
+                height: 28rem;
+            }
+
+  .texto-empanadas{
+
+                       font-size: 1.6rem;
+                       margin: 1rem;
+            }
+
+
+
+  .Paquetes h2 {
+                color:  rgb(0, 0, 0);
+                margin-bottom: 1rem;
+             }
+
+  .Paquetes p{
+                font-size: 1.6rem;
+             }
+
+.paquete_basico {
+    height: 14rem;
+    padding-bottom: 8rem;
+}
+.paquete_extra {
+    height: 14rem;
+    padding-bottom: 8rem;
+}
+
+.paquete_premium{
+    height: 15rem;
+    padding-bottom: 8rem;
+}
+
+.boton1{
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.boton2 {
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.boton3{
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+footer{
+    font-size: 1.2rem;
+    padding-top: 3rem;
+}
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .fiestas-culturales{
+        font-size: 1.6rem;
+    }
+
+    .celu1{
+        background-color: rgb(212, 212, 212);
+        margin-bottom: -11rem;
+    }
+
+    .celu2{
+        margin-bottom: -10rem;
+    }
+
+    .celu3{
+        background-color: rgb(212, 212, 212);
+        margin-bottom: -8.7rem;
+    }
+
+    .imgDuraznos {
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .imgfortines{
+        width: 22.5rem;
+        height: 17rem;
+    }
+
+    .imgEmpanadas{
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .p_texto{
+        margin-bottom: -2rem;
+    }
+
+    .paquete_extra{
+        height: 17rem;
+    }
+
+    .paquete_premium{
+        height: 19.6rem;
+    }
+
+
+
+}
+
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+ }
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+}
