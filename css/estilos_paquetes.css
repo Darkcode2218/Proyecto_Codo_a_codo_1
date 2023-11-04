@@ -1,11 +1,15 @@
-:root{
-    scroll-behavior: smooth;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
 .contenedor{
@@ -19,7 +23,7 @@
 
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(78, 190, 255, 0.301) 0%, rgba(213, 238, 166, 0.4) 100%), url(/img/paquetes.avif);
+    background-image: linear-gradient(to top, rgb(251, 194, 235, 0.4) 0%, rgb(166, 193, 238, 0.4) 100%), url(/img/paquetes_de_viajes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -36,6 +40,9 @@ header{
     flex-direction: column;
     color: #fff;
 }
+
+
+
 
 .navbar {
     display: flex;
@@ -76,22 +83,10 @@ header{
 }
 
 
-.menu-navegacion li{
-    display: inline-block;
-    
-    padding: 0 20px;
-
-}
-
-.menu-navegacion a:hover{
-    background-color: rgb(157, 80, 245);
-   
-
-} 
-
 .titulo{
     font-size: 60px;
     margin-bottom: 15px;
+    
 
 }
 
@@ -101,159 +96,145 @@ header{
 }
 
 
-
-
-
-
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
-.fiestas-culturales {
-
-    margin: 1.5rem;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-}
-
-.fiestas-culturales h2{
-    font-size: 1.5rem;
-    color: rgb(25, 125, 255);
-}
-
-.fiestas-cultares__parrafo--taman{
-    font-size: 1rem;
-}
-
-
-
-
-.imgDuraznos {
-margin: 1rem;
-padding: 1rem;
-width: 35rem;
-height: 28rem;
-float: center;
-}
-
-.texto-duraznos{
-
-    font-size: 1.5rem;
-    margin: 2rem;
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
 
 }
 
-
-
-
-
-.imgfortines{
-    margin:1rem;
-    padding: 1rem;
-    float: right;
-}
-
-.texto-fortines {
-
-    font-size: 1.5rem;
-    margin: 2rem;
-}
-
-
-
-.imgEmpanadas {
-    margin: 1rem;
-    padding: 1rem;
-    float: left;
-    width: 38rem;
-    height: 27rem;
-}
-
-.texto-empanadas{
-           font-size: 1.5rem;
-           margin: 1rem;
-}
-
-
-
-.Paquetes {
-
-     margin: 1.5rem;
-     padding: 1.5rem;
-     font-size: 1.5rem;
- }
-
- .Paquetes p {
-     font-size: 1.4rem;
-
- }
-
- .Paquetes h2 {
-    color:  rgb(25, 125, 255);
- }
-
-.paquete_basico{
-  color: white;
-  background: linear-gradient(rgb(23, 201, 255),rgba(0, 0, 0, 0.699));
-  padding: 2rem;
-  margin: 2rem;
- font-size: 1.3rem;
- height: 14rem;
- width: 80rem;
-
- border-radius:  5%;
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
-
-.paquete_extra{
-    color: white;
-    background: linear-gradient(rgb(211, 115, 203), rgb(0, 0, 0));
-    padding: 2rem;
-    margin: 2rem;
-    font-size: 1.3rem;
-    height: 14rem;
-    width: 80rem;
-    border-radius: 5%;
+.contenedor-servicio img{
+    width: 40%;
+    
 }
 
-.paquete_premium {
-    color: white;
-    background: linear-gradient(rgb(193, 212, 16), rgb(0, 0, 0));
-    padding: 2rem;
-    margin: 2rem;
-    font-size: 1.3rem;
-    height: 16rem;
-    width: 80rem;
-    border-radius: 5%;
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 7px;
 
 }
 
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
 
-
-.boton1 {
-    color: white;
-    background-color: rgb(3, 0, 184);
-    width: 5.5rem;
-    height: 2.5rem;
-    border: rgb(31, 183, 243) 3px solid;
 }
 
-.boton2 {
-    color: white;
-    background-color: rgb(143, 0, 187);
-    width: 5.5rem;
-    height: 2.5rem;
-    border: rgb(236, 70, 228) 3px solid;
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
 }
 
-.boton3 {
-       color: rgb(220, 245, 0);
-       background-color: rgb(0, 0, 0);
-       width: 5.5rem;
-       height: 2.5rem;
-       border: yellow 3px solid;
+.gallery{
+    background: #f2f2f2;
+
+}
+
+.contenedor-galeria{
+     width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria{
+     width: 30%;
+    margin-bottom: 30px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 3px ;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+}
+
+.imagen-light{
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2 ease-in-out;
+
+}
+
+.show{
+    transform: translate(0);
+}
+
+.agregar-imagen{
+    object-fit: cover;
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.experts{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 500;
+
 }
 
 .formulario{
@@ -269,11 +250,10 @@ float: center;
     display:grid;
     grid-template-columns: repeat(2,50%);
     padding:20px;
-    gap: 10px;
+    gap:10px;
     width: 1000px;
     background-image: linear-gradient(120deg, #c9c9c9dc 0%, #c7c9cbc7 100%);
     align-items: center;
-    
 
 }
 
@@ -442,9 +422,8 @@ form > button:hover,
 }
 
 footer{
-    background: #6a62cf;
+    background: #9f8ad0;
     padding-bottom: 0.1px;
-    
 }
 
 .footer-content{
@@ -510,163 +489,123 @@ footer{
 
 }
 
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
 
 
+    }
 
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
 
-@media only screen and (max-width: 768px) {
+    }
 
+    .checklist-servicio{
+        width: 80%;
+    }
 
+    .service{
+        margin-bottom: 30px;
+    }
 
-    .fiestas-culturales h2{
-          color: black;
-          margin-bottom: 1rem;
+    .agregar-imagen{
+        width: 80%;
+    }
 
-      }
+    .img-galeria{
+        width: 45%;
 
-      .imgDuraznos {
-        margin: 1rem;
-        padding: 1rem;
-        width: 39rem;
-        height: 27rem;
+    }
 
+    .cont-expert{
+        width: 80%;
 
-        }
+    }
 
-     .texto-duraznos{
+    .footer-content{
+        justify-content: center;
+    }
 
-            font-size: 1.6rem;
-             }
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
 
-   .imgfortines{
-                margin: 1rem;
-                padding: 1rem;
-                height: 30rem;
+    }
 
-            }
+    .social-media-icon{
+        margin-left: 0;
+    }
+    .social-media i{
+        margin-left: 0;
+    }
 
-   .texto-fortines {
-
-                font-size: 1.6rem;
-
-            }
-
- .imgEmpanadas {
-                margin: 1rem;
-                padding: 1rem;
-                 width: 39rem;
-                height: 28rem;
-            }
-
-  .texto-empanadas{
-
-                       font-size: 1.6rem;
-                       margin: 1rem;
-            }
-
-
-
-  .Paquetes h2 {
-                color:  rgb(0, 0, 0);
-                margin-bottom: 1rem;
-             }
-
-  .Paquetes p{
-                font-size: 1.6rem;
-             }
-
-.paquete_basico {
-    height: 14rem;
-    padding-bottom: 8rem;
-}
-.paquete_extra {
-    height: 14rem;
-    padding-bottom: 8rem;
-}
-
-.paquete_premium{
-    height: 15rem;
-    padding-bottom: 8rem;
-}
-
-.boton1{
-    width:6rem ;
-    height: 3rem;
-    font-size: 1.2rem;
-}
-
-.boton2 {
-    width:6rem ;
-    height: 3rem;
-    font-size: 1.2rem;
-}
-
-.boton3{
-    width:6rem ;
-    height: 3rem;
-    font-size: 1.2rem;
-}
-
-footer{
-    font-size: 1.2rem;
-    padding-top: 3rem;
-}
+    .contact-us{
+        text-align: center;
+        width: 80px;
+        margin-bottom: 40px;
+    }
 
 }
 
-
-
-@media only screen and (max-width: 480px) {
-
-    .fiestas-culturales{
-        font-size: 1.6rem;
+@media screen and (max-width:500px){
+   
+    .menu-toggle {
+        display: flex;
     }
 
-    .celu1{
-        background-color: rgb(212, 212, 212);
-        margin-bottom: -11rem;
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to top, #fdcbf18b 0%, #fdcbf18b 1%, #e6dee99e 100%);
+        position: absolute;
+        top: 60px;
+        left: 0;
     }
 
-    .celu2{
-        margin-bottom: -10rem;
+    .nav-item {
+        margin: 10px 0;
     }
 
-    .celu3{
-        background-color: rgb(212, 212, 212);
-        margin-bottom: -8.7rem;
+    .nav-link {
+        font-size: 18px;
     }
 
-    .imgDuraznos {
-        width: 22rem;
-        height: 17rem;
+    .nav-list.active {
+        display: flex;
     }
 
-    .imgfortines{
-        width: 22.5rem;
-        height: 17rem;
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 30px;
     }
 
-    .imgEmpanadas{
-        width: 22rem;
-        height: 17rem;
+    .agregar-imagen{
+        width: 95%;
     }
 
-    .p_texto{
-        margin-bottom: -2rem;
+    .img-galeria{
+        width: 95%;
     }
 
-    .paquete_extra{
-        height: 17rem;
+    .social-media{
+        width: 100%;
     }
 
-    .paquete_premium{
-        height: 19.6rem;
+    .contact-us{
+        width: 90%;
     }
-
-
 
 }
-
 @keyframes shake { 
     0%, 100% {transform: translateX(0);} 
     10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
