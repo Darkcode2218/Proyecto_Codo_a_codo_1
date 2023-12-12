@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Travel</title>
+    <link rel="stylesheet" href="css/estilos_paquetes.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="../frontend/img/letra-g.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b408879b64.js" ></script>
+    
+</head>
+<body>
+    <header class="header" id="inicio">
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>            
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="paquetes.html" class="nav-link">Paquetes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="alojamiento.html" class="nav-link">Alojamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="turismo.html" class="nav-link">Turismo</a>
+                </li>
+            </ul>
+        </nav>
+     <div class="contenedor head">
+        <h1 class="titulo">Paquetes Imperdibles</h1>
+        
+    </div> 
+    </header>
+    <main>
+        <section class="service contenedor" id="servicio">
+        <h2 class="subtitulo">Fiestas Culturales</h2>
+        <div class="contenedor-servicio">
+            <img src="img/fiestas_culturales.jpg" alt="">
+            <div class="checklist-servicio">
+                <div class="service">
+                    <h3 class="n-service"><span class="number">1</span>Fiesta provincial del durazno</h3>
+                </div>
+                <div>
+                    <h3 class="n-service"><span class="number">2</span>Festival de Fortines</h3>
+                </div>
+                <div>
+                     <h3 class="n-service"><span class="number">3</span>Fietsa Regional de la empanada costera</h3>
+                </div>
+                    
+                
+            </div>
+        </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/duraznos1.jpg" class="img-galeria">
+                    <img src="img/empanadas.jpg" class="img-galeria">
+                    <img src="img/fortines.webp" class="img-galeria">
+                    <img src="img/fiesta_del_durazno.jpeg" class="img-galeria">
+                    <img src="img/empanada_costera.jpeg" class="img-galeria">
+                    <img src="img/ranchos.jpg" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/close2.svg" alt="" class="close">
+            <img src="img/casa.rosada-2.jpg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="experto">
+            <h2 class="subtitulo">Paquetes Turisticos</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/paquetes_aereos.jpg" alt="">
+                    <h3 class="n-expert">Precio: 60000$
+                        <a href="./opcionesdepago.html"
+                        > <i class="bx bx-id-card">
+                            <button class="boton1" l>Comprar </button>
+                        </i></a></h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/paquetes_bus.jpg" alt="">
+                    <h3 class="n-expert">Precio: 100000$
+                        <a href="./opcionesdepago.html">
+                            <i class="bx bx-id-card">
+                                <button class="boton2" l>Comprar</button>
+                            </i>
+                        </a></h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/cruceros.jpg" alt="">
+                    <h3 class="n-expert">Precio: 160000$
+                        <a href="./opcionesdepago.html">
+                            <i class="bx bx-id-card">
+                                <button class="boton3" l>Comprar</button>
+                            </i>
+                        </a></h3>
+                </div>
+            </section>
+        </section>
+    </main>
+        <section class="formulario">
+                <div class="container">
+                    <div class="box-info">
+                        <h2>Hablemos...</h2>
+                        <div class="data">
+                            <p><i class="fa-solid fa-phone"></i>+54 (011) 535-08521/3</p>
+                            <p><i class="fa-solid fa-envelope"></i>Global@Unlimited.ar</p>
+                            <p><i class="fa-solid fa-location-dot"></i> Buenos Aires </p>
+                        </div>
+                    </div>
+                    <form id="contactForm"  method="post">
+                        <div class="input-container">
+                          <label for="nombre"><i class="fas fa-user"></i> Nombre:</label><br>
+                          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+                        </div>
+                    
+                        <div class="input-container">
+                          <label for="apellido"><i class="fas fa-user"></i> Apellido:</label><br>
+                          <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required><br><br>
+                        </div>
+                    
+                        <div class="input-container">
+                          <label for="telefono"><i class="fas fa-phone"></i> Teléfono:</label><br>
+                          <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required><br><br>
+                        </div>
+                    
+                        <div class="input-container">
+                          <label for="email"><i class="fas fa-envelope"></i> Email:</label><br>
+                          <input type="email" id="email" name="email"  placeholder="Tu correo electrónico" required><br><br>
+                        </div>
+                    
+                        <div class="input-container">
+                          <label for="mensaje"><i class="fas fa-comment"></i> Mensaje:</label><br>
+                          <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Tu mensaje" required>
+                          </textarea><br><br>
+                        </div>
+                    
+                        <input type="submit" value="Enviar">
+                      </form>
+                      <div id="mensajeEnviado" style="display: none;">Datos enviados</div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            </section>
+
+
+    <footer id="conctacto">
+       <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">Global Unlimited</h2>
+            <p>Somos expertos en encontrar tu viaje en sueño</p>
+        </div>
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-meta'></i>
+            </a>
+            <a href="https://twitter.com/home" class="social-media-icon">
+                <i class='bx bxl-twitter' ></i>
+            </a>
+            <a href="https://www.instagram.com/viajaconglobal/?next=%2F" class="social-media-icon">
+                <i class='bx bxl-instagram' ></i>
+            </a>
+        </div>
+       </div>
+       <div class="line"></div>
+       <a href="https://api.whatsapp.com/send?phone=54966954937" class="float" target="_blank">
+        <i class="my-float"></i>
+      </a>
+    </footer>
+     </body>
+     <script src="/js/menu.js"></script>
+    <script src="/js/lightbox.js"></script>
+    <script src="/js/formulario.js"></script>
+</html>
